@@ -1,0 +1,42 @@
+.filmes-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.filmes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.filme-item {
+  list-style: none;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.filme-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+li {
+  width: 20%;
+  border: 1px solid red;
+  padding: 8px;
+  margin: 0px 8px 8px 0;
+}
